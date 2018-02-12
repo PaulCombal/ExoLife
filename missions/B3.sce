@@ -12,4 +12,4 @@ img = addition(img, red_part);
 img = addition(img, blue_part);
 img = addition(img, green_part);
 
-writepbm(img, "images/result/B3.pbm");
+writepbm(img, "results/B3.pbm");

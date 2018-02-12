@@ -8,4 +8,4 @@ img=normalisation(img);
 
 display_gray(img);
 
-writepbm(img, "images/result/B2.pbm");
+writepbm(img, "results/B2.pbm");

@@ -1,8 +1,7 @@
-//Utilisation d'une matrice de convolution
-//Le pixel au centre de la matrice de convolution prend la valeur
-//du pixel de valeur médian dans toute la matrice de convolution
+//Utilisation d'un filtre passe-haut
+//Il permet d'accentuer les détails et le contraste
 
-function picture=filtre_passehaut(image, tolerance)
+function picture=filtre_passehaut(image)
     
     [width, height] = size(image);
     

@@ -1,6 +1,5 @@
 function out=egalisation(img)
-    
-    [x,y]=size(img);
+    [x, y]=size(img);
     num_pixels = x * y;
 
     tmp_hist = histogram(img);
@@ -11,7 +10,7 @@ function out=egalisation(img)
 
     for i=1:x
         for j=1:y
-            out(i, j) = tmp_hist((img(i,j)+1))*255
+            out(i, j) = tmp_hist((img(i, j) + 1)) * 255;
         end
     end
 endfunction

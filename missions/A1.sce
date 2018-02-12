@@ -1,5 +1,5 @@
 getd("functions\");
 
-image = readpbm("images\Encelade_surface.pbm");
+image = readpbm("images\A1.pbm");
 
 disp (locate_gray(image,200))
